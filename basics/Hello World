@@ -1,0 +1,21 @@
+# To print Hello World program
+
+print("Hello World")
+print(9763627057)
+
+'''
+- The inventor of the python => Guido Van Rossum(1989 / 1991)
+
+- In day one we learn how to open REPL(read evaluate print & loop) in terminal
+- We have to just open terminal from Desktop and simply type 'python' or 'python 3' 
+- If the python application is installed in the pc or laptop then simply REPL will open 
+- we can perform many operation here 
+- Exit from the REPL by simply tyypinng exit() 
+
+'''
+
+
+Output :
+
+Hello World
+9763627057
