@@ -1,0 +1,55 @@
+s="Rahul is very bad boy!!!"
+print(s[0])      # Accessing the character from string bye using specified index
+print(s[2:4])    # Slicing in between the given range 
+# In above one consider starting one but do not consider last one
+print(s[:12])    # Slicing from Start
+print(s[12:])     # Slicing till end
+print(s[:])    # slicing starting till end same as the following 
+print(s)
+
+
+
+# Following is the negative slicing
+
+print(s[-12:-1])  # -12 element is considered and -1 element is skipped
+print(s[:-1])      # Only last element is skipped
+print(s[-12:])      # all elements from -12 elements are considered
+
+
+# Something Odd trying
+z="abcdefghijklmnpqrsuvwxyz"
+print(z)
+print(z[ : : 1])  # both above one and this is same
+print(z[ : : 2 ])  # this will skip one character in between while Slicing
+
+print(z[ : : 3])    # this will skip two character in between while Slicing
+
+
+st='India is my country.'
+for i in st:
+  print(i,end=" ")  # Here the space separated will separate each character of the string by the space
+print("\n")
+for i in st:
+  print(i,end="_") 
+  
+  
+  
+  Output :
+  
+  
+R
+hu
+Rahul is ver
+y bad boy!!!
+Rahul is very bad boy!!!
+Rahul is very bad boy!!!
+y bad boy!!
+Rahul is very bad boy!!
+y bad boy!!!
+abcdefghijklmnpqrsuvwxyz
+abcdefghijklmnpqrsuvwxyz
+acegikmpruwy
+adgjmqux
+I n d i a   i s   m y   c o u n t r y . 
+
+I_n_d_i_a_ _i_s_ _m_y_ _c_o_u_n_t_r_y_._
