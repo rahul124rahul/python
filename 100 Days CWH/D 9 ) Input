@@ -1,0 +1,62 @@
+a=23
+b=23.2
+c='12'
+d="Rahul"
+print("a =",a)
+print(type(a))
+
+print("\nb =",b)
+print(type(b))
+
+print("\nc =",c)
+print(type(c))
+
+print("\nd =",d)
+print(type(d),"\n")
+
+a1=float(a)  # these are Explisit type conversions 
+a2=str(a)
+print(a1,type(a2))
+print(a2,type(a2),"\n")
+
+print("a+b =",a+b)  # This is implicit type conversion  
+
+# print("a+c =",a+c)  #  This will throw an error
+
+print("a + int(c) = ",a+int(c))
+
+# print(int(d))  # This throw an error Because it is purely string 
+
+
+
+
+Output :
+
+a=23
+b=23.2
+c='12'
+d="Rahul"
+print("a =",a)
+print(type(a))
+
+print("\nb =",b)
+print(type(b))
+
+print("\nc =",c)
+print(type(c))
+
+print("\nd =",d)
+print(type(d),"\n")
+
+a1=float(a)  # these are Explisit type conversions 
+a2=str(a)
+print(a1,type(a2))
+print(a2,type(a2),"\n")
+
+print("a+b =",a+b)  # This is implicit type conversion  
+
+# print("a+c =",a+c)  #  This will throw an error
+
+print("a + int(c) = ",a+int(c))
+
+# print(int(d))  # This throw an error Because it is purely string 
