@@ -1,0 +1,36 @@
+name = input("Buddy Please enter you Good name : ")
+
+print("Hey !! your Good name is ", name, ". \nToo nice name.", sep="")
+
+a = input("Enter a = ")
+b = input("Enter b = ")
+
+print("String Concatenation :", a + b)
+print("Type conversion and addition : ", int(a) + int(b))
+
+# Taking input by typecasting initiially
+c = int(input("Enter integer : "))  # Only integer is allowed
+print(c)
+d = float(input(
+  "Enter float : "))  # We can give integer also by default point is considered
+print(d)
+
+
+Output :
+
+name = input("Buddy Please enter you Good name : ")
+
+print("Hey !! your Good name is ", name, ". \nToo nice name.", sep="")
+
+a = input("Enter a = ")
+b = input("Enter b = ")
+
+print("String Concatenation :", a + b)
+print("Type conversion and addition : ", int(a) + int(b))
+
+# Taking input by typecasting initiially
+c = int(input("Enter integer : "))  # Only integer is allowed
+print(c)
+d = float(input(
+  "Enter float : "))  # We can give integer also by default point is considered
+print(d)
