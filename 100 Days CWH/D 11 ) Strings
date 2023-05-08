@@ -1,0 +1,81 @@
+s="Rahul"
+print ("My Name is "+s)
+print ("My Name is ",s)  # Little difference of space in use of + and , 
+
+print('\nHe said,"I like you !!".')
+print("'The Secret' is very good book.")
+# We can use following method also for the printing double or single code in the same print function in our output 
+print("She said,\"I also Like you !!\".")
+print('\'This\' Was the memorable moment for \'both\' of them.')
+
+# In following condition we have to use single or double tripple code
+m='''My
+  Name
+    is 
+      Rahul
+        !!! '''
+print(m)
+print("""My
+  Name
+    is 
+      Rahul
+        !!! 
+  """)
+
+u='RAHUL'
+print(u[0])
+print(u[1])
+print(u[2])
+print(u[3])
+print(u[4])
+# print(u[5])    # string index out o  f range 
+  # The above one will throw an error
+print("\n")
+# other method is 
+for char in u:
+  print(char,end="")
+
+# in above end="" will join the all print functions upto the end of the for loop
+
+
+
+Output :
+
+s="Rahul"
+print ("My Name is "+s)
+print ("My Name is ",s)  # Little difference of space in use of + and , 
+
+print('\nHe said,"I like you !!".')
+print("'The Secret' is very good book.")
+# We can use following method also for the printing double or single code in the same print function in our output 
+print("She said,\"I also Like you !!\".")
+print('\'This\' Was the memorable moment for \'both\' of them.')
+
+# In following condition we have to use single or double tripple code
+m='''My
+  Name
+    is 
+      Rahul
+        !!! '''
+print(m)
+print("""My
+  Name
+    is 
+      Rahul
+        !!! 
+  """)
+
+u='RAHUL'
+print(u[0])
+print(u[1])
+print(u[2])
+print(u[3])
+print(u[4])
+# print(u[5])    # string index out o  f range 
+  # The above one will throw an error
+print("\n")
+# other method is 
+for char in u:
+  print(char,end="")
+
+# in above end="" will join the all print functions upto the end of the for loop
