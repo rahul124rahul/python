@@ -1,0 +1,31 @@
+a=int(input("Enter 1st no : "))
+b=(int(input("Enter 2nd no : ")))
+
+c=a+b
+print("\nAddition of two numbers is :",c)
+d=a-b
+print("Subtraction of two numbers is : ",d)
+e=a*b
+print("Multiplication of two numbers is :",e)
+
+print("Division of",a,"and",b,"is :",a/b)
+
+print("Floor Division of",a,"and",b,"is :",a//b)
+
+print("Modulus of ",a,"and",b,"is :",a%b)
+print(a,"to the power",b,"equal to : ",a**b)
+
+
+Output  :
+
+
+Enter 1st no : 12
+Enter 2nd no : 23
+
+Addition of two numbers is : 35
+Subtraction of two numbers is :  -11
+Multiplication of two numbers is : 276
+Division of 12 and 23 is : 0.5217391304347826
+Floor Division of 12 and 23 is : 0
+Modulus of  12 and 23 is : 12
+12 to the power 23 equal to :  6624737266949237011120128
