@@ -1,0 +1,61 @@
+a=8
+print(a)
+
+b="Rhaul"
+print(b)
+
+c=None
+print(c)
+
+d=False
+print(d)
+
+print(type(2))
+print(type('s'))
+print(type("jfnbdhvf"))
+print(type(23.343))
+print(type(False))
+print(type(None))
+print(type(-9488.434))
+# print(type(4 + 5i))        # This is giving an error
+
+e=complex(2,5)
+print(e)
+print(type(e))
+
+
+print("Rahul is","Bad boy")    # This will also work in python printing
+
+RS_list = ["R",["MV" , "SB"] ,"S" ,97 ,23,42]
+print(RS_list)
+
+RS_touple = (("R"),("MV" , 'S') ,"S" ,97 ,23,42)
+print(RS_touple)
+
+
+# I am writing the dictionary
+
+dict = {"Name":"Rahul" , 'Age':21 ,"CanVote":True}
+print(dict)
+
+
+
+Output :
+
+8
+Rhaul
+None
+False
+<class 'int'>
+<class 'str'>
+<class 'str'>
+<class 'float'>
+<class 'bool'>
+<class 'NoneType'>
+<class 'float'>
+(2+5j)
+<class 'complex'>
+Rahul is Bad boy
+['R', ['MV', 'SB'], 'S', 97, 23, 42]
+('R', ('MV', 'S'), 'S', 97, 23, 42)
+{'Name': 'Rahul', 'Age': 21, 'CanVote': True}
