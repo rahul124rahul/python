@@ -1,0 +1,11 @@
+print("Hello World", 7)
+print(5)
+print("Bye")
+print(17*13)
+
+Output :
+
+Hello World 7
+5
+Bye
+221
