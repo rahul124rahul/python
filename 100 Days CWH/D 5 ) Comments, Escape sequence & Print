@@ -1,0 +1,45 @@
+# This is the single line comment 
+'''
+  This is 
+    the Multiline comment '''
+
+print("My name si Rahul.")
+
+# print("This doesnt "execute")
+print("This will \" execute")
+
+
+# Example on the Esscape Sequence Character
+# print("Rahul said,"I am a Good Gye!!"")        # This will throw an error
+print("Rahul said,\"I am a Good Gye!!\"")  # M-1
+print(" new 'lines' wanted ")    # M-2
+print('badshds"ajkba"ashad\n\n')      # M-3
+# Here all 3 methods wii work
+
+
+# More on print statement 
+print("# More on print statement\n ")
+
+print ("Rahul","ram","sham" , 1,2,3,"\n")
+print ("Rahul","ram","sham" , 1,2,3,sep=' ~ ')
+print ("Rahul","ram","sham" , 1,2,3,sep=' ~ ',end=' ### ')
+print ("Rahul","ram","sham" , 1,2,3,sep=' ~ ')
+
+
+
+Output :
+
+
+My name si Rahul.
+This will " execute
+Rahul said,"I am a Good Gye!!"
+ new 'lines' wanted 
+badshds"ajkba"ashad
+
+
+# More on print statement
+ 
+Rahul ram sham 1 2 3 
+
+Rahul ~ ram ~ sham ~ 1 ~ 2 ~ 3
+Rahul ~ ram ~ sham ~ 1 ~ 2 ~ 3 ### Rahul ~ ram ~ sham ~ 1 ~ 2 ~ 3
